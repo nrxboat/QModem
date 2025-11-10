@@ -306,7 +306,8 @@ match_config()
 
     #FM350-GL-00 5G Module
     [[ "$name" = *"fm350-gl"* ]] && name="fm350-gl"
-    
+    [[ "$name" = *"mf308"* ]] && name="fm350-gl"
+	
     #FM190W-GL 5G Module
     [[ "$name" = *"fm190w-gl"* ]] && name="fm190w-gl"
 
